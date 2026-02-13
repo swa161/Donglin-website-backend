@@ -1,0 +1,42 @@
+{
+  "name": "donglin-website-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "npm run build",
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swa161/Donglin-website-backend.git"
+  },
+  "keywords": [],
+  "author": "Kevin Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swa161/Donglin-website-backend/issues"
+  },
+  "homepage": "https://github.com/swa161/Donglin-website-backend#readme",
+  "dependencies": {
+    "@types/pg": "^8.16.0",
+    "ajv": "^8.17.1",
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "pg": "^8.18.0",
+    "rand-token": "^1.0.1",
+    "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.2.3",
+    "nodemon": "^3.1.11",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
